@@ -1,0 +1,17 @@
+.App {
+  padding-left: 17px;
+  width: calc(98vw - 17px);
+  margin-bottom: 1vw; /* отступ такой же как и у SearchBar */
+}
+
+@media (max-width: 1272px) {
+  .App {
+    padding-left: 0.1vw;
+    width: 98.74vw;
+  }
+}
+
+.Box {
+  max-width: 1200px;
+  margin: 0 auto;
+}

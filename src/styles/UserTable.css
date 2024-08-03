@@ -1,0 +1,55 @@
+.user-table {
+    width: 100%;
+    max-width: 1200px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.user-table th, .user-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    position: relative;
+    vertical-align: middle; /* Выравнивание по вертикали в ячейках */
+}
+
+.user-table th {
+    background-color: #f2f2f2;
+    text-align: justify;
+}
+
+th div, td div {
+    display: flex;
+    align-items: center; /* Центрирование по вертикали */
+    justify-content: space-between; /* Распределение пространства между текстом и кнопкой */
+}
+
+td {
+    cursor: pointer;
+}
+
+.functional-button {
+    cursor: pointer;
+    width: 33px; /* Фиксированная ширина */
+    height: 30px; /* Фиксированная высота */
+    padding: unset;
+    font-size: 14px; /* Размер шрифта для лучшего отображения */
+    color: #007bff;
+}
+
+.functional-button:hover {
+    color: #0056b3;
+}
+
+.resizable {
+    position: absolute;
+    left: -1.5px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    cursor: col-resize;
+    background-color: transparent;
+}
+
+.resizable:hover {
+    background-color: #ddd;
+}
