@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/user-table-app/static/css/main.0a5980de.css",
+    "main.js": "/user-table-app/static/js/main.68e1dc00.js",
+    "static/js/453.1cbe6b13.chunk.js": "/user-table-app/static/js/453.1cbe6b13.chunk.js",
+    "index.html": "/user-table-app/index.html",
+    "main.0a5980de.css.map": "/user-table-app/static/css/main.0a5980de.css.map",
+    "main.68e1dc00.js.map": "/user-table-app/static/js/main.68e1dc00.js.map",
+    "453.1cbe6b13.chunk.js.map": "/user-table-app/static/js/453.1cbe6b13.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a5980de.css",
+    "static/js/main.68e1dc00.js"
+  ]
+}
